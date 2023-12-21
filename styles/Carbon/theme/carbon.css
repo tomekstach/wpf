@@ -17,6 +17,7 @@
 	margin: 0 0 0 -6px;
 }
 
+/* AstoSoft start */
 .carbon-image-wrapper {
 	display: block;
 	margin: 7px auto 1px -1%;
@@ -36,6 +37,8 @@
 	right: 2%;
 	bottom: .5%;
 }
+
+/* AstoSoft end */
 
 #carbon-top {
 	background-color: #454545;

@@ -279,10 +279,21 @@
 				<!-- ENDIF -->
 				<!-- EVENT navbar_header_logged_out_content -->
 				<!-- ENDIF -->
+				<!-- AstoSoft - start -->
+				<li class="rightside" data-skip-responsive="true">
+					<i class="icon fa-sun-o fa-fw" aria-hidden="true"></i>
+					<a href="{BOARD_URL}?style=2">jasny</a>
+				</li>
+				<li class="rightside" data-skip-responsive="true">
+					<i class="icon fa-moon-o fa-fw" aria-hidden="true"></i>
+					<a href="{BOARD_URL}?style=3" style="text-decoration: underline;">ciemny</a>
+				</li>
+				<!-- AstoSoft - end -->
 			</ul>
 
 		</div>
 
+		<!-- AstoSoft - start -->
 		<a href="{% if U_SITE_HOME %}{{ U_SITE_HOME }}{% else %}{{ U_INDEX }}{% endif %}"
 			title="{% if U_SITE_HOME %}{{ L_SITE_HOME }}{% else %}{{ L_INDEX }}{% endif %}">
 			<div class="carbon-topper"></div>
@@ -294,6 +305,7 @@
 				</div>
 			</div>
 		</a>
+		<!-- AstoSoft - end -->
 
 		<div id="carbon-bottom">
 			<!-- EVENT overall_header_searchbox_before -->
