@@ -140,6 +140,10 @@ th a:hover {
 	color: #cccccc;
 }
 
+.post:target .content blockquote {
+	color: #333333;
+}
+
 .post h3 a.first-unread,
 .post:target h3 a {
 	color: #cccccc;
