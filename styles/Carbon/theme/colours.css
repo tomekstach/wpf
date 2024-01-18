@@ -140,7 +140,9 @@ th a:hover {
 	color: #cccccc;
 }
 
-.post:target .content blockquote {
+.post .content blockquote,
+.post .content blockquote a,
+.post .content blockquote a:hover {
 	color: #333333;
 }
 
